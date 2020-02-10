@@ -2,3 +2,5 @@
 ---
 NY Silents
 ---
+
+favicon generated from https://favicon.io/favicon-generator/
