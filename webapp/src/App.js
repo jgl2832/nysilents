@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 function Calendar() {
-  const url = "https://calendar.google.com/calendar/embed?src=geusqu6v8s7kgceoil2otdnkfk%40group.calendar.google.com&ctz=Europe%2FBerlin"
+  const url = "https://calendar.google.com/calendar/embed?src=geusqu6v8s7kgceoil2otdnkfk%40group.calendar.google.com"
   return (
     <iframe
       src={url}
@@ -22,9 +22,6 @@ function App() {
         <h1>
           NY Silents
         </h1>
-        <p>
-          Coming Soon
-        </p>
         <Calendar />
       </header>
     </div>
