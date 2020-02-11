@@ -5,6 +5,7 @@ function Calendar() {
   const url = "https://calendar.google.com/calendar/embed?src=geusqu6v8s7kgceoil2otdnkfk%40group.calendar.google.com"
   return (
     <iframe
+      title="nysilentscalendar"
       src={url}
       style={{border: 0}}
       width="800"
