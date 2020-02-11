@@ -13,11 +13,15 @@
   font-size: calc(10px + 2vmin);
 }
 
+.App-header-subtitle {
+  margin-top: -25px;
+}
+
 .Calendar-container {
   position: relative;
   height: 0;
   width: 90vw;
-  min-height: 75vh;
+  min-height: 70vh;
 }
 
 .Calendar-container iframe {
