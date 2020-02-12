@@ -1,10 +1,17 @@
+:root {
+  --bg-color: white;
+  --text-color: black;
+  --splash-color: black;
+  --splash-text-color: white;
+}
+
 .App {
   text-align: center;
-  color: black;
+  color: var(--text-color);
 }
 
 .App-header {
-  background-color: white;
+  background-color: var(--bg-color);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -15,6 +22,11 @@
 
 .App-header-subtitle {
   margin-top: -25px;
+  background-color: var(--splash-color);
+  color: var(--splash-text-color);
+  font-weight: bold;
+  padding: 15px 0px;
+  width: 100%;
 }
 
 .Calendar-container {
