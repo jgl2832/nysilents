@@ -23,9 +23,11 @@ function App() {
         <h1>
           NY Silents
         </h1>
-        <small className="App-header-subtitle">
-          A listing of silent film screenings and early cinema-related events happening in the NYC area
-        </small>
+	<span className="App-header-subtitle">
+          <small>
+            A listing of silent film screenings and early cinema-related events happening in the NYC area
+          </small>
+	</span>
         <br />
         <Calendar />
       </header>

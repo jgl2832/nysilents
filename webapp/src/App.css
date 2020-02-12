@@ -29,6 +29,11 @@
   width: 100%;
 }
 
+.App-header-subtitle small {
+  display: block;
+  padding: 0px 15px;
+}
+
 .Calendar-container {
   position: relative;
   height: 0;
