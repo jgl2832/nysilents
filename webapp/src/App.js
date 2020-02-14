@@ -1,6 +1,26 @@
 import React from 'react';
 import './App.css';
 
+function Title() {
+  return (
+    <span className="App-header-title">
+      <h1>
+        NY Silents
+      </h1>
+    </span>
+  );
+}
+
+function SubTitle() {
+  return (
+    <span className="App-header-subtitle">
+      <small>
+	A listing of silent film screenings and early cinema-related events happening in the NYC area
+      </small>
+    </span>
+  );
+}
+
 function Calendar() {
   return (
     <div className="Calendar-container">
@@ -16,20 +36,25 @@ function Calendar() {
   );
 }
 
+function ContactLink() {
+  return (
+    <span className="App-header-contact">
+      <a target="_blank" href="mailto:silentsny@gmail.com">
+	<small>Contact us</small>
+      </a>
+    </span>
+  );
+}
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>
-          NY Silents
-        </h1>
-	<span className="App-header-subtitle">
-          <small>
-            A listing of silent film screenings and early cinema-related events happening in the NYC area
-          </small>
-	</span>
+	<Title />
+	<SubTitle />
         <br />
         <Calendar />
+	<ContactLink />
       </header>
     </div>
   );
