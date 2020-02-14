@@ -39,7 +39,7 @@ function Calendar() {
 function ContactLink() {
   return (
     <span className="App-header-contact">
-      <a target="_blank" href="mailto:silentsny@gmail.com">
+      <a target="_blank" rel="noopener noreferrer" href="mailto:silentsny@gmail.com">
 	<small>Contact us</small>
       </a>
     </span>
