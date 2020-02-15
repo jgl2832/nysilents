@@ -39,9 +39,9 @@ function Calendar() {
 function ContactLink() {
   return (
     <span className="App-header-contact">
-      <a target="_blank" rel="noopener noreferrer" href="mailto:silentsny@gmail.com">
-	<small>Contact us</small>
-      </a>
+      <small>
+        To suggest a screening email <a target="_blank" rel="noopener noreferrer" href="mailto:silentsny@gmail.com">silentsny@gmail.com</a>
+      </small>
     </span>
   );
 }
