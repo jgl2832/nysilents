@@ -40,7 +40,7 @@ function ContactLink() {
   return (
     <span className="App-header-contact">
       <small>
-        To suggest a screening email <a target="_blank" rel="noopener noreferrer" href="mailto:silentsny@gmail.com">silentsny@gmail.com</a>
+        To suggest a screening, email <a target="_blank" rel="noopener noreferrer" href="mailto:silentsny@gmail.com">silentsny@gmail.com</a>
       </small>
     </span>
   );
