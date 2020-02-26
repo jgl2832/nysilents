@@ -15,7 +15,7 @@ function SubTitle() {
   return (
     <span className="App-header-subtitle">
       <small>
-	A listing of silent film screenings and early cinema-related events happening in the NYC area
+	A listing of public silent film screenings and early cinema-related events happening in NYC.
       </small>
     </span>
   );
